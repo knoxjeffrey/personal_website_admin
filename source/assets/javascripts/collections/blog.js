@@ -32,6 +32,7 @@ export const blog = {
     {
       label: "Image",
       name: "banner_image",
+      required: false,
       widget: "image"
     },
     {
