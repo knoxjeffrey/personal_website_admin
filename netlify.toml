@@ -1,0 +1,16 @@
+[context.production.processing]
+  skip_processing = false
+
+[context.production.processing.css]
+  bundle = true
+  minify = true
+
+[context.production.processing.js]
+  bundle = true
+  minify = true
+
+[context.production.processing.html]
+  pretty_urls = false
+
+[context.production.processing.images]
+  compress = false

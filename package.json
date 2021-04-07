@@ -1,0 +1,36 @@
+{
+  "name": "personal_website_admin",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "start": "NODE_ENV=development ./node_modules/webpack/bin/webpack.js --watch -d --color",
+    "build": "NODE_ENV=production ./node_modules/webpack/bin/webpack.js --bail -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knoxjeffrey/personal_website_admin"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/knoxjeffrey/personal_website_admin/issues"
+  },
+  "homepage": "https://github.com/knoxjeffrey/personal_website_admin#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.4",
+    "terser-webpack-plugin": "^4.2.2",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "netlify-cms-app": "^2.12.25",
+    "react": "^16.13.1",
+    "react-dom": "^16.3.1"
+  }
+}
