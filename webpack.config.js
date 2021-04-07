@@ -4,9 +4,7 @@ const TerserPlugin = require("terser-webpack-plugin");
 module.exports = {
 
   entry: {
-    main: path.resolve(__dirname, "./source/assets/javascripts/index.js"),
-    previews: path.resolve(__dirname, "./source/assets/javascripts/previews.js"),
-    editor_components: path.resolve(__dirname, "./source/assets/javascripts/editor_components.js"),
+    main: path.resolve(__dirname, "./source/assets/javascripts/index.js")
   },
 
   output: {

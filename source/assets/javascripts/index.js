@@ -13,6 +13,7 @@ CMS.init({
     },
     publish_mode: "editorial_workflow",
     media_folder: "source/assets/images",
+    public_folder: "",
     collections: [blog]
   },
 })
