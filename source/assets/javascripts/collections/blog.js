@@ -27,7 +27,7 @@ export const blog = {
       name: "tags",
       widget: "select",
       multiple: true,
-      options: ["Tealeaf Academy", "Ruby", "Web Development", "RubyMotion", "Rails", "Work"]
+      options: ["Tealeaf Academy", "Ruby", "Web development", "RubyMotion", "Rails", "Work", "Software engineering"]
     },
     {
       label: "Image",
