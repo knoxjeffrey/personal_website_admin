@@ -29,7 +29,7 @@ export const blog = {
       multiple: true,
       options: [
         "Tealeaf Academy", "Ruby", "Web development", "RubyMotion", "Rails", "Work",
-        "Software engineering", "Web performance"
+        "Software engineering", "Web performance", "Netlify"
       ]
     },
     {
